@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+}
+
+.icon ul li {
+    margin-right: 12px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63vh;
+    margin-bottom: 10px;
+}
+
+.left {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/travel-agent-hearing-customer-desires-portrait-good-looking-european-businesswoman-blue-blouse-glasses-holding-hands-pockets-smiling-being-friendly-polite-gray-wall.jpg");
+    background-size: cover;
+    height: 450px;
+    width: 750px;
+
+}
+
+.left h2 {
+    margin: 211px 310px 0px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 41px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.left p {
+    margin: 12px 122px;
+    color: rgb(5, 3, 3);
+}
+
+.btn {
+    display: inline-block;
+    margin-left: 170px;
+    padding: 8px 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    margin-top: 12px;
+}
+
+.right-1 {
+    background-image: url("image/cap.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right 1px;
+    height: 220px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.right-1 h2 {
+    padding: 144px 0px 0px 20px;
+    font-size: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    margin: 12px 0px 2px 30px;
+    border-bottom: 3px solid black;
+}
+
+.right-2 {
+    background-image: url("image/shoes.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 360px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.right-2 h2 {
+    padding: 144px 0px 0px 20px;
+    font-size: 25px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 66px;
+}
+
+.col-1 {
+    background: url("image/medium-shot-smiley-woman-with-white-hoodie.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+}
+
+.col-2 {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.5), rgba(66, 64, 64, 0.5)), url("image/stylish-hipster-man-dressed-jeans-bow-tie-sits-wooden-box.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+}
+
+.all {
+    margin: 147px 0px 0px 400px;
+}
+
+.all h2 {
+    margin: 12px 0px;
+    font-size: 25px;
+}
+
+.btn-2 {
+    border-bottom: 3px solid black;
+    display: inline-block;
+    padding: 8px 0px;
+    margin-left: 12px;
+}
+
+.all-1 {
+    margin: 147px 0px 0px 200px;
+    color: #020101;
+}
+
+.all-1 h2 {
+    font-size: 25px;
+    margin: 12px 0px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.box-1 {
+    text-align: center;
+    padding: 20px 100px;
+    border: 2px solid black;
+    margin-right: 12px;
+}
+
+.box-2 {
+    text-align: center;
+    padding: 20px 80px;
+    border: 2px solid black;
+    margin-right: 12px;
+}
+
+.box-3 {
+    text-align: center;
+    padding: 20px 80px;
+    border: 2px solid black;
+
+}
+
+.item {
+    margin-left: 12px;
+}
+
+.card h2 {
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+.card p {
+    margin-left: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 8px 20px;
+    border: 2px solid black;
+}
+
+.line-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card-1 {
+    background-color: aliceblue;
+    width: 600px;
+    height: 299px;
+    padding: 190px 0px 0px 134px
+}
+
+.card-1 h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 169px;
+    line-height: 40px;
+}
+
+.card-1 p {
+    margin-left: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    padding-bottom: 6px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.bag {
+    background-image: url("image/front-view-blonde-woman-with-copy-space_23-2148483117.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 250px;
+}
+
+.shoe {
+    background-image: url("image/young-woman-tying-her-shoelaces-outdoors-training-road_1268-17537.jpg");
+    background-size: cover;
+    width: 550px;
+    height: 250px;
+}
+
+.bag-text {
+    margin: 120px 30px 0px 50px;
+    color: white;
+}
+
+.bag-text p {
+    font-weight: bold;
+}
+
+.bag-text h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.bag-btn {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    display: inline-block;
+    padding: 8px 0px;
+    margin-left: 12px;
+}
+
+.shoe-text {
+    margin: 120px 0px 0px 252px;
+    color: white;
+
+}
+
+.shoe-text p {
+    font-weight: bold;
+}
+
+.shoe-text h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.shoe-btn {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    display: inline-block;
+    padding: 8px 0px;
+    margin-left: 12px;
+}
+
+/* -------------Blog---------- */
+
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.blog-heading h2 {
+    font-size: 25px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid black;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.blog-item-1 {
+    background-image: url("image/blog-1.avif");
+    background-size: cover;
+    width: 369px;
+    height: 314px;
+    margin-right: 15px;
+}
+
+.date {
+    margin: 20px 0px 0px 20px;
+    width: 60px;
+    height: 50px;
+    padding-top: 12px;
+
+    text-align: center;
+    background-color: white;
+}
+
+.date span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.h2 {
+    margin: 165px 0px 0px 30px;
+}
+
+.h2 h2 {
+    font-size: 25px;
+    color: white;
+}
+
+.h2 ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.h2 ul li {
+    display: inline-block;
+    color: white;
+    padding-top: 12px;
+    margin-left: 12px;
+
+}
+
+.h2 ul li span {
+    border-right: 3px solid rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-right: 12px;
+}
+
+.blog-item-2 {
+    background-image: url("image/blog-2.avif");
+    background-size: cover;
+    width: 369px;
+    height: 314px;
+    margin-right: 15px;
+}
+
+.blog-item-3 {
+    background-image: url("image/blog-3.avif");
+    background-size: cover;
+    width: 369px;
+    height: 314px;
+}
+
+.brand {
+    width: 100%;
+    margin: 99px 0px;
+}
+
+.bd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 44px;
+    padding-right: 44px;
+
+}
+
+.brand-logo {
+    border: 2px solid gray;
+    /* padding: 50px 50px; */
+
+}
+
+
+
+
+
+
+/* ----------- Footer----------------- */
+
+.form {
+    background-color: rgba(7, 6, 6, 0.78);
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    margin-left: 20px;
+}
+
+.name h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.name p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.name ul {
+    list-style: none;
+    padding: 4px 0px;
+}
+
+.name ul li {
+    padding: 3px 10px;
+    color: white;
+}
+
+.in {
+    margin-top: 20px;
+    color: white;
+}
+
+.in li {
+    font-size: 35px;
+
+}
+
+.help h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.help ul {
+    list-style: none;
+}
+
+.help ul li {
+    padding-top: 12px;
+    color: white;
+}
+
+.account h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+}
+
+.account ul {
+    list-style: none;
+}
+
+.account ul li {
+    padding-top: 12px;
+    color: white;
+}
+
+.service {
+    margin-right: 200px;
+    color: white;
+}
+
+.service h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+}
+
+.service ul {
+    list-style: none;
+}
+
+.service ul li {
+    padding-top: 12px;
+    color: white;
+}
+
+.title-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.title-1 h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.new {
+    display: flex;
+    /* justify-content: space-between; */
+    border: 2px solid gray;
+    padding: 12px 12px;
+    margin-top: -40px;
+    margin-bottom: 35px;
+    /* margin-left: 12px; */
+    /* margin-right: 12px; */
+    height: 120px;
+}
+
+.letter-left-1 {
+    flex-basis: 1184px;
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    border-right: 2px solid rgb(179, 179, 179);
+}
+
+.letter-left-1 img {
+    background-color: black;
+    border-radius: 50px;
+
+}
+
+.letter-left-1 h2 {
+    font-size: 21px;
+    color: white;
+    padding-left: 16px;
+}
+
+.letter-right-2 {
+    padding: 0px 101px 0px 31px;
+    /* text-align: center; */
+    margin-top: 25px;
+}
+
+.letter-right-2 h4 {
+    color: white;
+}
+
+.news-letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-letter input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    /* margin-top: 8px; */
+    /* margin-right: 16px; */
+    font-size: 17px;
+    line-height: 55px;
+    background: #f4f4f4;
+    border: none;
+    outline: none;
+    width: 317px;
+    height: 32px;
+    color: black;
+}
+
+.news-letter p {
+    background-color: rgb(129, 107, 107);
+    color: white;
+    padding: 20px 47px;
+    padding: 14px 34px;
+}
+
+.news {
+    display: flex;
+    /* justify-content: space-between; */
+    border: 3px solid black;
+    padding: 12px 12px;
+    margin-bottom: 35px;
+    margin-left: 12px;
+    margin-right: 12px;
+    height: 120px;
+}
+
+.letter-left {
+    flex-basis: 1184px;
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    border-right: 2px solid black;
+}
+
+.letter-left h2 {
+    font-size: 21px;
+    padding-left: 16px;
+}
+
+.letter-right {
+    padding: 0px 101px 0px 31px;
+    /* text-align: center; */
+    margin-top: 25px;
+}
+
+.news-letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-letter input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    /* margin-top: 8px; */
+    /* margin-right: 16px; */
+    font-size: 17px;
+    line-height: 55px;
+    background: #f4f4f4;
+    border: none;
+    outline: none;
+    width: 317px;
+    height: 32px;
+    color: black;
+}
+
+.news-letter p {
+    background-color: black;
+    color: white;
+    padding: 20px 47px;
+    padding: 15px 34px;
+}
+
+.ft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ft h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.ft ul {
+    margin-right: 190px;
+}
+
+.ft ul li {
+    display: inline-block;
+    padding-left: 12px;
+    color: white;
+
+}
